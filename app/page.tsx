@@ -106,7 +106,7 @@ const successfulCampaigns = [
   {
   id: 1,
   name: "GoChess: AI‑Powered Smart Chess Board",
-  category: "Tecnología / Juegos",
+  category: "Tecnología",
   country: "Estados Unidos",
   goal: 20000,
   raised: 2083603,
@@ -121,7 +121,7 @@ const successfulCampaigns = [
   {
   id: 2,
   name: "Aeke K1 Smart Home Gym",
-  category: "Tecnología / Fitness",
+  category: "Fitness",
   country: "Estados Unidos",
   goal: 500000,
   raised: 1300000,
@@ -151,7 +151,7 @@ const successfulCampaigns = [
   {
   id: 4,
   name: "Curvilux",
-  category: "Tecnología / Hogar",
+  category: "Hogar",
   country: "Argentina",
   goal: 54500,
   raised: 60505,
@@ -166,7 +166,7 @@ const successfulCampaigns = [
   {
   id: 5,
   name: "GiFlyBike",
-  category: "Movilidad / Tecnología",
+  category: "Movilidad",
   country: "Argentina",
   goal: 140000,
   raised: 795944,
@@ -181,7 +181,7 @@ const successfulCampaigns = [
   {
   id: 6,
   name: "Bricksave",
-  category: "Fintech / Inmobiliario",
+  category: "Fintech",
   country: "Argentina",
   goal: 500000,
   raised: 750000,
