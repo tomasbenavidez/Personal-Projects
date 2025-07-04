@@ -104,35 +104,39 @@ const months = [
 
 const successfulCampaigns = [
   {
-  id: 1,
-  name: "GoChess: AI‑Powered Smart Chess Board",
-  category: "Tecnología",
-  country: "Estados Unidos",
-  goal: 20000,
-  raised: 2083603,
-  backers: 5492,
-  success_rate: 10416,
-  duration: 28,
-  year: 2025,
-  description: "Tablero de ajedrez automatizado con IA, movimiento de piezas y coaching en tiempo real.",
-  image_color: "from-gray-700 to-white",
-  highlights: ["2.08 M recaudados", "IA en movimiento automático", "Coaching en vivo"]  
-},
+    id: 1,
+    name: "Pebble Time",
+    category: "Tecnología",
+    country: "Estados Unidos",
+    goal: 500000,
+    raised: 20338986,
+    backers: 78471,
+    success_rate: 4067.8,
+    duration: 31,
+    year: 2015,
+    description: "The smartwatch that started it all. Color e-paper display, 7-day battery life.",
+    image_color: "from-blue-500 to-cyan-500",
+    highlights: ["Most funded smartwatch", "Revolutionary e-paper display", "Week-long battery life"],
+  },
   {
-  id: 2,
-  name: "Aeke K1 Smart Home Gym",
-  category: "Fitness",
-  country: "Estados Unidos",
-  goal: 500000,
-  raised: 1300000,
-  backers: 600,
-  success_rate: 260,
-  duration: 30,
-  year: 2025,
-  description: "Gimnasio doméstico compacto con análisis biométrico AI y planes personalizados.",
-  image_color: "from-green-500 to-blue-500",
-  highlights: ["1.3 M recaudados", "Análisis biométrico por IA", "Compacto y plegable"]
-},
+    id: 2,
+    name: "Exploding Kittens",
+    category: "Juegos",
+    country: "Estados Unidos",
+    goal: 10000,
+    raised: 8782571,
+    backers: 219382,
+    success_rate: 87825.7,
+    duration: 30,
+    year: 2015,
+    description: "A card game for people who are into kittens and explosions and laser beams.",
+    image_color: "from-orange-500 to-red-500",
+    highlights: [
+      "Most backed game in Kickstarter history",
+      "Simple yet addictive gameplay",
+      "Viral social media presence",
+    ],
+  },
   {
     id: 3,
     name: "Coolest Cooler",
@@ -144,55 +148,55 @@ const successfulCampaigns = [
     success_rate: 26570.5,
     duration: 36,
     year: 2014,
-    description: "La hielera del siglo XXI que realmente es más “cool”. Incluye una licuadora integrada, parlante Bluetooth, puertos USB para carga, luces LED internas, ruedas todo terreno, abrelatas, tabla de cortar, platos",
+    description: "21st Century Cooler that's Actually Cooler. Blender, Bluetooth Speaker, USB Charger, LED Lights.",
     image_color: "from-green-500 to-emerald-500",
-    highlights: ["Diseño Multi-Función", "Perfecta para actividades al aire libre", "Integración de Gadgets novedosos"],
+    highlights: ["Multi-functional design", "Perfect for outdoor activities", "Innovative features integration"],
   },
   {
-  id: 4,
-  name: "Curvilux",
-  category: "Hogar",
-  country: "Argentina",
-  goal: 54500,
-  raised: 60505,
-  backers: 200,
-  success_rate: 111,
-  duration: 45,
-  year: 2024,
-  description: "Mesa de luz con carga inalámbrica, puertos USB, iluminación y audio inteligentes.",
-  image_color: "from-purple-200 to-pink-300",
-  highlights: ["60 505 US$ recaudados", "Carga inalámbrica y audio integrado", "Lanzamiento en NY"]
-},
+    id: 4,
+    name: "Potato Salad",
+    category: "Comida",
+    country: "Estados Unidos",
+    goal: 10,
+    raised: 55492,
+    backers: 6911,
+    success_rate: 554920.0,
+    duration: 30,
+    year: 2014,
+    description: "Basically I'm just making potato salad. I haven't decided what kind yet.",
+    image_color: "from-yellow-500 to-orange-500",
+    highlights: ["Viral internet phenomenon", "Simplicity as a strategy", "Community-driven humor"],
+  },
   {
-  id: 5,
-  name: "GiFlyBike",
-  category: "Movilidad",
-  country: "Argentina",
-  goal: 140000,
-  raised: 795944,
-  backers: 800,
-  success_rate: 569,
-  duration: 60,
-  year: 2023,
-  description: "Primera bici eléctrica argentina plegable en 10 s, con puertos USB, conectividad IA.",
-  image_color: "from-red-400 to-black",
-  highlights: ["795 944 US$ recaudados", "Plegado en 10 s", "Ventas internacionales"]
-},
+    id: 5,
+    name: "Oculus Rift",
+    category: "Tecnología",
+    country: "Estados Unidos",
+    goal: 250000,
+    raised: 2437429,
+    backers: 9522,
+    success_rate: 975.0,
+    duration: 32,
+    year: 2012,
+    description: "Step into the game with the Oculus Rift, the first truly immersive virtual reality headset.",
+    image_color: "from-purple-500 to-pink-500",
+    highlights: ["VR revolution pioneer", "Acquired by Facebook for $2B", "Changed gaming forever"],
+  },
   {
-  id: 6,
-  name: "Bricksave",
-  category: "Fintech",
-  country: "Argentina",
-  goal: 500000,
-  raised: 750000,
-  backers: 4527,
-  success_rate: 150,
-  duration: 90,
-  year: 2024,
-  description: "Plataforma de crowdfunding inmobiliario que usa IA para detectar oportunidades de inversión.",
-  image_color: "from-blue-400 to-teal-500",
-  highlights: ["Algoritmo IA analiza 2 M puntos de datos", "Expansión a EE.UU.", "Valoración > US$ 50 M"]
-},
+    id: 6,
+    name: "Pono Music",
+    category: "Música",
+    country: "Estados Unidos",
+    goal: 800000,
+    raised: 6225354,
+    backers: 18220,
+    success_rate: 778.2,
+    duration: 33,
+    year: 2014,
+    description: "Where your soul rediscovers music. High-resolution music player by Neil Young.",
+    image_color: "from-indigo-500 to-purple-500",
+    highlights: ["Celebrity endorsement", "Audiophile quality", "Music industry disruption"],
+  },
 ]
 
 export default function CrowdfundingSimulator() {
@@ -217,12 +221,12 @@ export default function CrowdfundingSimulator() {
   }
 
   const classifyInvestorType = (overfunding: number, avgInvestment: number, numBackers: number): string => {
-    if (numBackers <= 30 && avgInvestment >= 30) {
+    if (numBackers <= 50 && avgInvestment >= 100) {
       return "Familia y amigos"
-    } else if (overfunding >= 180 && numBackers >= 300) {
-      return "Campaña viral"
-    } else if (overfunding >= 130 && avgInvestment >= 40 && numBackers <= 30) {
-      return "Inversores ángeles"
+    } else if (overfunding >= 200 && numBackers >= 500) {
+      return "Comunidad grande / Influencers"
+    } else if (overfunding >= 120 && avgInvestment >= 50) {
+      return "Ángeles"
     } else {
       return "Comunidad"
     }
