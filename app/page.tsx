@@ -217,12 +217,12 @@ export default function CrowdfundingSimulator() {
   }
 
   const classifyInvestorType = (overfunding: number, avgInvestment: number, numBackers: number): string => {
-    if (numBackers <= 50 && avgInvestment >= 100) {
+    if (numBackers <= 30 && avgInvestment >= 30) {
       return "Familia y amigos"
-    } else if (overfunding >= 200 && numBackers >= 500) {
-      return "Comunidad grande / Influencers"
-    } else if (overfunding >= 120 && avgInvestment >= 50) {
-      return "Ángeles"
+    } else if (overfunding >= 180 && numBackers >= 300) {
+      return "Campaña viral"
+    } else if (overfunding >= 130 && avgInvestment >= 40 && numBackers <= 30) {
+      return "Inversores ángeles"
     } else {
       return "Comunidad"
     }
